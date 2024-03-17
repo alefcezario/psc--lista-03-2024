@@ -3,7 +3,7 @@ public class Exercicio1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int primeiroNum, segundoNum, terceiroNum, maiorNum, menorNum, media;
+        int primeiroNum, segundoNum, terceiroNum, media;
 
         System.out.println("Digite o primeiro numero:");
         primeiroNum = scanner.nextInt();
