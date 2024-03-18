@@ -8,14 +8,13 @@ public class Exercicio2 {
         System.out.println("Digite o valor da sua compra R$");
         valorDaCompra = scanner.nextDouble();
 
-        System.out.println("Agora digite o valor que vc ia pagar");
+        System.out.println("Agora digite o valor que vc irá pagar:");
         valorPago = scanner.nextDouble();
         
   
         if (valorPago < valorDaCompra) {
             System.out.println("O valor que vc pagou é menos do que o que vc precisa pagar.");
-            return;
-        }
+        }else{
 
         troco = valorPago - valorDaCompra;
         System.out.println("Troco R$" + troco);
@@ -28,7 +27,7 @@ public class Exercicio2 {
                 troco%=nota;
             }
         }
-
+    }
         scanner.close();
     }    
 }
