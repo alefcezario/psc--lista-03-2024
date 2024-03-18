@@ -34,7 +34,7 @@ public class Exercicio5 {
                     resultadoOperacao = primeiroNumero / segundoNumero;
                 } else {
                     System.out.println("Não é possivel dividir por zero!");
-                    return;
+
                 }
                 break;
 
@@ -43,7 +43,7 @@ public class Exercicio5 {
                 break;
             default:
                 System.out.println("Simbolo diferente dos solicitados. Favor inserir apenas os simbolos (+, -, *, /, ^)");
-                return;
+   
         }
 
         System.out.println("O resultado é: " + resultadoOperacao);
